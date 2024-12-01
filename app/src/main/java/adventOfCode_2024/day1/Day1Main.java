@@ -29,7 +29,7 @@ public class Day1Main {
         for (int i = 0; i < leftArray.size(); i++) {
             int left = leftArray.get(i);
             int right = rightArray.get(i);
-
+ 
             if(left <= right){
                 resultArray.add(right-left);
             }else{
